@@ -6,7 +6,7 @@
 #include <unordered_map>
 #include <memory>
 
-#include <gears/Lock.hpp>
+#include "Lock.hpp"
 
 namespace Gears
 {

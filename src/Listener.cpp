@@ -2,9 +2,9 @@
 #include <sys/wait.h>
 #include <sys/socket.h>
 
-#include <gears/Errno.hpp>
-#include <gears/Listener.hpp>
-#include <gears/Singleton.hpp>
+#include "Errno.hpp"
+#include "Listener.hpp"
+#include "Singleton.hpp"
 
 namespace
 {

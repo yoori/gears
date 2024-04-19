@@ -5,8 +5,8 @@
 #include <sys/mman.h>
 #include <sys/types.h>
 
-#include <gears/Exception.hpp>
-#include <gears/Uncopyable.hpp>
+#include "Exception.hpp"
+#include "Uncopyable.hpp"
 
 namespace Gears
 {

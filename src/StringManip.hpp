@@ -1,9 +1,9 @@
 #ifndef GEARS_STRINGMANIP_HPP
 #define GEARS_STRINGMANIP_HPP
 
-#include <gears/AsciiStringManip.hpp>
-#include <gears/UTF8Category.hpp>
-#include <gears/ArrayAutoPtr.hpp>
+#include "AsciiStringManip.hpp"
+#include "UTF8Category.hpp"
+#include "ArrayAutoPtr.hpp"
 
 /**
  * Contain general string manipulation routines
@@ -602,8 +602,8 @@ namespace StringManip
 } // namespace StringManip
 } // namespace Gears
 
-#include <gears/StringManip.ipp>
-#include <gears/StringManip.tpp>
-#include <gears/Tokenizer.hpp>
+#include "StringManip.ipp"
+#include "StringManip.tpp"
+#include "Tokenizer.hpp"
 
 #endif

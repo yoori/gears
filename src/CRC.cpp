@@ -1,4 +1,4 @@
-#include <gears/CRC.hpp>
+#include "CRC.hpp"
 
 namespace Gears
 {

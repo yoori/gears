@@ -5,10 +5,10 @@
 #include <list>
 #include <map>
 
-#include <gears/Exception.hpp>
-#include <gears/Uncopyable.hpp>
-#include <gears/InputMemoryStream.hpp>
-#include <gears/OutputMemoryStream.hpp>
+#include "Exception.hpp"
+#include "Uncopyable.hpp"
+#include "InputMemoryStream.hpp"
+#include "OutputMemoryStream.hpp"
 
 namespace Gears
 {

@@ -1,8 +1,8 @@
 #ifndef GEARS_SIMPLE_DECIMAL_HPP
 #define GEARS_SIMPLE_DECIMAL_HPP
 
-#include <gears/SubString.hpp>
-#include <gears/CommonDecimal.hpp>
+#include "SubString.hpp"
+#include "CommonDecimal.hpp"
 
 namespace Gears
 {
@@ -500,6 +500,6 @@ namespace Gears
     noexcept;
 }
 
-#include <gears/SimpleDecimal.tpp>
+#include "SimpleDecimal.tpp"
 
 #endif

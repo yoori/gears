@@ -5,9 +5,9 @@
 #include <fcntl.h>
 #include <memory>
 
-#include <gears/Errno.hpp>
+#include "Errno.hpp"
 //#include <Gears/Function.hpp>
-#include <gears/OutputMemoryStream.hpp>
+#include "OutputMemoryStream.hpp"
 
 namespace Gears
 {

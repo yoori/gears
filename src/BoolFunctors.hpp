@@ -3,7 +3,7 @@
 
 #include <utility>
 
-#include <gears/Exception.hpp>
+#include "Exception.hpp"
 
 namespace Gears
 {

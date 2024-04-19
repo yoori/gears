@@ -6,9 +6,9 @@
 #include <deque>
 #include <set>
 
-#include <gears/OutputMemoryStream.hpp>
-#include <gears/HashTable.hpp>
-#include <gears/HashTableAdapters.hpp>
+#include "OutputMemoryStream.hpp"
+#include "HashTable.hpp"
+#include "HashTableAdapters.hpp"
 
 namespace Gears
 {

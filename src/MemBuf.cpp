@@ -1,5 +1,5 @@
-#include <gears/MemBuf.hpp>
-#include <gears/OutputMemoryStream.hpp>
+#include "MemBuf.hpp"
+#include "OutputMemoryStream.hpp"
 
 #if DEV_MEMBUF_BOUNDS > 0
 #include <cassert>

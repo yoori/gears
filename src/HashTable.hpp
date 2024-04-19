@@ -5,7 +5,7 @@
 #include <unordered_map>
 #include <functional>
 
-#include <gears/HashTableAdapters.hpp>
+#include "HashTableAdapters.hpp"
 
 namespace Gears
 {  

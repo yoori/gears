@@ -3,7 +3,7 @@
 
 #include <cstdint>
 
-#include <gears/ArrayAutoPtr.hpp>
+#include "ArrayAutoPtr.hpp"
 
 namespace Gears
 {

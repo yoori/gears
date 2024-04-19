@@ -1,9 +1,9 @@
 #ifndef GEARS_UTF8CATEGORY_HPP_
 #define GEARS_UTF8CATEGORY_HPP_
 
-#include <gears/UTF8NArcTree.hpp>
-#include <gears/CompressedSet.hpp>
-#include <gears/Uncopyable.hpp>
+#include "UTF8NArcTree.hpp"
+#include "CompressedSet.hpp"
+#include "Uncopyable.hpp"
 
 namespace Gears
 {

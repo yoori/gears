@@ -7,10 +7,10 @@
 
 #include <vector>
 
-#include <gears/Uncopyable.hpp>
-#include <gears/Errno.hpp>
-#include <gears/StringManip.hpp>
-#include <gears/BoolFunctors.hpp>
+#include "Uncopyable.hpp"
+#include "Errno.hpp"
+#include "StringManip.hpp"
+#include "BoolFunctors.hpp"
 
 //#include <Gears/Function.hpp>
 

@@ -4,10 +4,10 @@
 #include <event.h>
 #include <memory>
 
-#include <gears/ActiveObject.hpp>
+#include "ActiveObject.hpp"
 //#include <Gears/ArrayAutoPtr.hpp>
-#include <gears/Descriptors.hpp>
-#include <gears/Time.hpp>
+#include "Descriptors.hpp"
+#include "Time.hpp"
 
 namespace Gears
 {

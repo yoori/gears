@@ -5,8 +5,8 @@
 #include <limits>
 #include <utility>
 
-#include <gears/Uncopyable.hpp>
-#include <gears/CRC.hpp>
+#include "Uncopyable.hpp"
+#include "CRC.hpp"
 
 namespace Gears
 {

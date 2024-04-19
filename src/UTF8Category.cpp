@@ -1,11 +1,11 @@
 #include <cassert>
 #include <cstring>
 
-#include <gears/UTF8Category.hpp>
-#include <gears/UTF8Handler.hpp>
-#include <gears/UTF8IsProperty.hpp>
+#include "UTF8Category.hpp"
+#include "UTF8Handler.hpp"
+#include "UTF8IsProperty.hpp"
 
-#include <gears/OutputMemoryStream.hpp>
+#include "OutputMemoryStream.hpp"
 
 namespace Gears
 {

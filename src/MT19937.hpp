@@ -6,8 +6,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-#include <gears/Time.hpp>
-#include <gears/Uncopyable.hpp>
+#include "Time.hpp"
+#include "Uncopyable.hpp"
 
 namespace Gears
 {

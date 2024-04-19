@@ -1,8 +1,8 @@
 #ifndef GEARS_HASHTABLEADAPTERS_HPP_
 #define GEARS_HASHTABLEADAPTERS_HPP_
 
-#include <gears/SubString.hpp>
-#include <gears/Hash.hpp>
+#include "SubString.hpp"
+#include "Hash.hpp"
 
 /*
  * XXX!

@@ -1,8 +1,8 @@
 #include <map>
 
-#include <gears/StringManip.hpp>
-#include <gears/TextTemplate.hpp>
-#include <gears/MMapStream.hpp>
+#include "StringManip.hpp"
+#include "TextTemplate.hpp"
+#include "MMapStream.hpp"
 
 namespace Gears
 {

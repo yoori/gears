@@ -1,8 +1,8 @@
 #ifndef GEARS_TOKENIZER_HPP_
 #define GEARS_TOKENIZER_HPP_
 
-#include <gears/AsciiStringManip.hpp>
-#include <gears/Uncopyable.hpp>
+#include "AsciiStringManip.hpp"
+#include "Uncopyable.hpp"
 
 namespace Gears
 {

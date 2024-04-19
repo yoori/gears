@@ -1,7 +1,7 @@
 #ifndef GEARS_UTF8NARCTREE_HPP_
 #define GEARS_UTF8NARCTREE_HPP_
 
-#include <gears/UTF8Handler.hpp>
+#include "UTF8Handler.hpp"
 
 namespace Gears
 {

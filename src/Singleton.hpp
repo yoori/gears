@@ -11,15 +11,15 @@
 #include <unistd.h>
 #include <atomic>
 
-#include <gears/Lock.hpp>
-#include <gears/Uncopyable.hpp>
-//#include <gears/Function.hpp>
+#include "Lock.hpp"
+#include "Uncopyable.hpp"
+//#include "Function.hpp"
 
 #ifdef LOUD_COUNTER_BACKTRACE
-#include <gears/Proc.hpp>
+#include "Proc.hpp"
 #endif
 
-#include <gears/OutputMemoryStream.hpp>
+#include "OutputMemoryStream.hpp"
 
 namespace Gears
 {

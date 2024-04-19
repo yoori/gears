@@ -5,8 +5,8 @@
 #include <memory>
 #include <iostream>
 
-#include <gears/Exception.hpp>
-#include <gears/Lock.hpp>
+#include "Exception.hpp"
+#include "Lock.hpp"
 
 namespace Gears
 {

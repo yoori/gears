@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-#include <gears/Uncopyable.hpp>
+#include "Uncopyable.hpp"
 
 namespace Gears
 {

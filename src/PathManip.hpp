@@ -3,8 +3,8 @@
 
 #include <string>
 
-#include <gears/Exception.hpp>
-#include <gears/SubString.hpp>
+#include "Exception.hpp"
+#include "SubString.hpp"
 
 namespace Gears
 {

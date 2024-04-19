@@ -1,6 +1,6 @@
 #include <cstring>
 
-#include <gears/AppUtils.hpp>
+#include "AppUtils.hpp"
 
 namespace Gears
 {

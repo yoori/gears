@@ -1,8 +1,8 @@
 #include <list>
 
-#include <gears/AsciiStringManip.hpp>
-//#include <gears/UrlAddress.hpp>
-#include <gears/PathManip.hpp>
+#include "AsciiStringManip.hpp"
+//#include "UrlAddress.hpp"
+#include "PathManip.hpp"
 
 namespace Gears
 {

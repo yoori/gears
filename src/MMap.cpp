@@ -2,10 +2,10 @@
 
 #include <limits>
 
-#include <gears/Errno.hpp>
-#include <gears/InputMemoryStream.hpp>
-#include <gears/OutputMemoryStream.hpp>
-#include <gears/MMap.hpp>
+#include "Errno.hpp"
+#include "InputMemoryStream.hpp"
+#include "OutputMemoryStream.hpp"
+#include "MMap.hpp"
 
 namespace Gears
 {

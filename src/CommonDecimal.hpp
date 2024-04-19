@@ -7,8 +7,8 @@
 #include <cassert>
 #include <cmath>
 
-#include <gears/Exception.hpp>
-#include <gears/OutputMemoryStream.hpp>
+#include "Exception.hpp"
+#include "OutputMemoryStream.hpp"
 
 namespace Gears
 {

@@ -4,8 +4,8 @@
 #include <deque>
 #include <memory>
 
-#include <gears/Exception.hpp>
-#include <gears/Lock.hpp>
+#include "Exception.hpp"
+#include "Lock.hpp"
 
 #include "Semaphore.hpp"
 #include "ActiveObject.hpp"

@@ -3,7 +3,7 @@
 
 #include <errno.h>
 
-#include <gears/StringManip.hpp>
+#include "StringManip.hpp"
 
 namespace Gears
 {

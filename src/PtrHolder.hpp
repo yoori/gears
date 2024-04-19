@@ -2,8 +2,8 @@
 #define GEARS_PTRHOLDER_HPP
 
 #include <memory>
-#include <gears/Lock.hpp>
-#include <gears/Uncopyable.hpp>
+#include "Lock.hpp"
+#include "Uncopyable.hpp"
 
 namespace Gears
 {

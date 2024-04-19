@@ -1,7 +1,7 @@
 #ifndef UTF8_IS_PROPERTY_HPP
 #define UTF8_IS_PROPERTY_HPP
 
-#include <gears/UTF8NArcTree.hpp>
+#include "UTF8NArcTree.hpp"
 
 namespace Gears
 {

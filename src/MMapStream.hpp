@@ -1,8 +1,8 @@
 #ifndef GEARS_MMAPSTREAM_HPP_
 #define GEARS_MMAPSTREAM_HPP_
 
-#include <gears/InputMemoryStream.hpp>
-#include <gears/MMap.hpp>
+#include "InputMemoryStream.hpp"
+#include "MMap.hpp"
 
 namespace Gears
 {

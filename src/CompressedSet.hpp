@@ -3,8 +3,8 @@
 
 #include <map>
 
-#include <gears/Exception.hpp>
-#include <gears/TypeTraits.hpp>
+#include "Exception.hpp"
+#include "TypeTraits.hpp"
 
 namespace Gears
 {

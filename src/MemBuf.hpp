@@ -1,7 +1,7 @@
 #ifndef GEARS_MEMBUF_HPP
 #define GEARS_MEMBUF_HPP
 
-#include <gears/Allocator.hpp>
+#include "Allocator.hpp"
 
 #ifdef DEV_DEBUG
 #ifndef DEV_MEMBUF_BOUNDS

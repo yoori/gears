@@ -1,7 +1,7 @@
 #ifndef GEARS_ARRAYAUTOPTR_HPP
 #define GEARS_ARRAYAUTOPTR_HPP
 
-#include <gears/Exception.hpp>
+#include "Exception.hpp"
 
 namespace Gears
 {

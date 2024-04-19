@@ -3,9 +3,9 @@
 
 #include <type_traits>
 
-#include <gears/TaskRunner.hpp>
-#include <gears/Planner.hpp>
-#include <gears/BoolFunctors.hpp>
+#include "TaskRunner.hpp"
+#include "Planner.hpp"
+#include "BoolFunctors.hpp"
 
 namespace Gears
 {
