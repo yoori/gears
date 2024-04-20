@@ -149,6 +149,8 @@ namespace Gears
   {
   public:
     typedef std::allocator<Elem> Allocator;
+    typedef Elem* Pointer;
+    typedef const Elem* ConstPointer;
 
     /**
      * Constructor without parameters
@@ -167,7 +169,7 @@ namespace Gears
      * @param size should be equal to SIZE
      * @return pointer to size_ternal buffer
      */
-    typename Allocator::pointer
+    Pointer
     allocate(typename Allocator::size_type size, const void* = 0)
       noexcept;
 
@@ -178,7 +180,7 @@ namespace Gears
      * @param size should be equal to SIZE
      */
     void
-    deallocate(typename Allocator::pointer ptr,
+    deallocate(Pointer ptr,
       typename Allocator::size_type size) noexcept;
 
   private:

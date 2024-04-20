@@ -22,12 +22,12 @@ namespace Gears
   class HashTable :
     public std::unordered_map<Key, Value, HashFunForHashAdapter<Key>,
       EqualKey,
-      typename Alloc::template rebind<std::pair<const Key, Value> >::other>
+      typename std::allocator_traits<Alloc>::template rebind_alloc<std::pair<const Key, Value>>>
   {
   private:
     typedef std::unordered_map<Key, Value, HashFunForHashAdapter<Key>,
       EqualKey,
-      typename Alloc::template rebind<std::pair<const Key, Value> >::other>
+      typename std::allocator_traits<Alloc>::template rebind_alloc<std::pair<const Key, Value>>>
       Parent;
 
   public:

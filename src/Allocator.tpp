@@ -22,8 +22,7 @@ namespace Gears
 
   template<typename Elem, const size_t SIZE, typename Buffer,
     typename BufferInitializer>
-  typename BasicFixedBufferAllocator<Elem, SIZE, Buffer, BufferInitializer>::
-    Allocator::pointer
+  typename BasicFixedBufferAllocator<Elem, SIZE, Buffer, BufferInitializer>::Pointer
   BasicFixedBufferAllocator<Elem, SIZE, Buffer, BufferInitializer>::allocate(
     typename Allocator::size_type size, const void*) throw()
   {
@@ -39,7 +38,8 @@ namespace Gears
     typename BufferInitializer>
   void
   BasicFixedBufferAllocator<Elem, SIZE, Buffer, BufferInitializer>::deallocate(
-    typename Allocator::pointer ptr, typename Allocator::size_type size)
+    typename BasicFixedBufferAllocator<Elem, SIZE, Buffer, BufferInitializer>::Pointer ptr,
+    typename Allocator::size_type size)
     throw()
   {
     if (!allocated_ || ptr != buffer_ || size >= SIZE)

@@ -67,7 +67,7 @@ namespace Gears
       /*throw (Gears::Exception, OutOfMemory)*/
     {
       align_(size, MASK_);
-      return new unsigned char[size];
+      return static_cast<Base::Pointer>(new unsigned char[size]);
     }
 
     void
