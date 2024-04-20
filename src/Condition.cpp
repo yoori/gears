@@ -1,7 +1,7 @@
 // Condition.cpp
 
-#include "Errno.hpp"
-#include "Condition.hpp"
+#include <gears/Errno.hpp>
+#include <gears/Condition.hpp>
 
 namespace Gears
 {

@@ -44,6 +44,11 @@ set(
 
 add_library(${TARGET_NAME} SHARED ${GEARS_SOURCE_FILES})
 
+target_include_directories(${TARGET_NAME} PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
+  $<INSTALL_INTERFACE:include/gears>
+  )
+
 target_link_libraries(${TARGET_NAME}
   ${LIBEVENT_LIB}
   ${CMAKE_THREAD_LIBS_INIT})

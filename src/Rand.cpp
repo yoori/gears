@@ -1,6 +1,6 @@
-#include "Lock.hpp"
-#include "ISAAC.hpp"
-#include "MT19937.hpp"
+#include <gears/Lock.hpp>
+#include <gears/ISAAC.hpp>
+#include <gears/MT19937.hpp>
 
 namespace Gears
 {

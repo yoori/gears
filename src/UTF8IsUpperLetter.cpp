@@ -1,4 +1,4 @@
-#include "UTF8IsProperty.hpp"
+#include <gears/UTF8IsProperty.hpp>
 
 namespace Gears
 {

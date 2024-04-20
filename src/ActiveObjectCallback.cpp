@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "ActiveObjectCallback.hpp"
+#include <gears/ActiveObjectCallback.hpp>
 
 namespace Gears
 {

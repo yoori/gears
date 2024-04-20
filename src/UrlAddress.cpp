@@ -1,13 +1,13 @@
 #include <cassert>
 
-#include "StringManip.hpp"
-#include "UTF8Category.hpp"
+#include <gears/StringManip.hpp>
+#include <gears/UTF8Category.hpp>
 //#include <String/UTF8AllProperties.hpp>
-#include "UnicodeNormalizer.hpp"
-#include "Function.hpp"
-#include "OutputMemoryStream.hpp"
+#include <gears/UnicodeNormalizer.hpp>
+#include <gears/Function.hpp>
+#include <gears/OutputMemoryStream.hpp>
 
-#include "UrlAddress.hpp"
+#include <gears/UrlAddress.hpp>
 
 namespace Gears
 {

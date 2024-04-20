@@ -1,6 +1,6 @@
 #include <cstdlib>
 
-#include "Singleton.hpp"
+#include <gears/Singleton.hpp>
 
 namespace Gears
 {

@@ -1,4 +1,4 @@
-#include "Logger.hpp"
+#include <gears/Logger.hpp>
 
 namespace Gears
 {

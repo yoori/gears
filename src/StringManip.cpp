@@ -1,9 +1,9 @@
 #include <algorithm>
 
-#include "AsciiStringManip.hpp"
-#include "StringManip.hpp"
-#include "UTF8Handler.hpp"
-#include "OutputMemoryStream.hpp"
+#include <gears/AsciiStringManip.hpp>
+#include <gears/StringManip.hpp>
+#include <gears/UTF8Handler.hpp>
+#include <gears/OutputMemoryStream.hpp>
 
 namespace
 {

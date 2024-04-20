@@ -1,7 +1,7 @@
 #include <iostream>
 #include <unistd.h>
 
-#include "SimpleLogger.hpp"
+#include <gears/SimpleLogger.hpp>
 
 namespace
 {

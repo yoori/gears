@@ -1,5 +1,5 @@
-#include "StringManip.hpp"
-#include "Time.hpp"
+#include <gears/StringManip.hpp>
+#include <gears/Time.hpp>
 
 namespace Gears
 {

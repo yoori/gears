@@ -1,4 +1,4 @@
-#include "CompositeActiveObject.hpp"
+#include <gears/CompositeActiveObject.hpp>
 
 namespace Gears
 {

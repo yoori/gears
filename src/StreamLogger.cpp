@@ -1,5 +1,5 @@
-#include "OutputMemoryStream.hpp"
-#include "StreamLogger.hpp"
+#include <gears/OutputMemoryStream.hpp>
+#include <gears/StreamLogger.hpp>
 
 namespace Gears
 {

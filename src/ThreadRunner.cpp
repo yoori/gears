@@ -1,7 +1,7 @@
-#include "Errno.hpp"
-#include "OutputMemoryStream.hpp"
+#include <gears/Errno.hpp>
+#include <gears/OutputMemoryStream.hpp>
 
-#include "ThreadRunner.hpp"
+#include <gears/ThreadRunner.hpp>
 
 namespace Gears
 {

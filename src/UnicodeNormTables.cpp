@@ -1,4 +1,4 @@
-#include "UnicodeNormalizer.hpp"
+#include <gears/UnicodeNormalizer.hpp>
 
 namespace Gears
 {

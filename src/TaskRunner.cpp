@@ -1,7 +1,7 @@
 #include <cassert>
 #include <algorithm>
 
-#include "TaskRunner.hpp"
+#include <gears/TaskRunner.hpp>
 
 namespace Gears
 {

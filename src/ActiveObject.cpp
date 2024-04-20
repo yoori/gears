@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "ActiveObject.hpp"
+#include <gears/ActiveObject.hpp>
 
 namespace Gears
 {

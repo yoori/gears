@@ -1,6 +1,6 @@
 #include <cctype>
 
-#include "AsciiStringManip.hpp"
+#include <gears/AsciiStringManip.hpp>
 
 namespace Gears
 {

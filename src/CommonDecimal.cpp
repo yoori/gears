@@ -1,4 +1,4 @@
-#include "CommonDecimal.hpp"
+#include <gears/CommonDecimal.hpp>
 
 namespace Gears
 {

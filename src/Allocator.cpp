@@ -1,5 +1,5 @@
 #include <assert.h>
-#include "Allocator.hpp"
+#include <gears/Allocator.hpp>
 
 namespace Gears
 {

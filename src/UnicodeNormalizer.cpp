@@ -1,7 +1,7 @@
 #include <cstddef>
 #include <algorithm>
 
-#include "UnicodeNormalizer.hpp"
+#include <gears/UnicodeNormalizer.hpp>
 
 /**
  * Hangul composition constants
