@@ -147,6 +147,8 @@ namespace Gears
 
   typedef std::shared_ptr<CompositeActiveObject>
     CompositeActiveObject_var;
+
+  using CompositeActiveObjectPtr = std::shared_ptr<CompositeActiveObject>;
 }
 
 namespace Gears
