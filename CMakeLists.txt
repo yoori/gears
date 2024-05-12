@@ -42,6 +42,9 @@ set(
     src/UnicodeNormTables.cpp
 )
 
+include(FindPkgConfig)
+pkg_search_module(libevent REQUIRED event)
+
 add_library(${TARGET_NAME} SHARED ${GEARS_SOURCE_FILES})
 
 target_include_directories(${TARGET_NAME} PUBLIC
@@ -50,7 +53,7 @@ target_include_directories(${TARGET_NAME} PUBLIC
   )
 
 target_link_libraries(${TARGET_NAME}
-  ${LIBEVENT_LIB}
+  event
   ${CMAKE_THREAD_LIBS_INIT})
 
 install(TARGETS ${TARGET_NAME} DESTINATION lib)
