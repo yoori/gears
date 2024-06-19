@@ -40,7 +40,6 @@ set(
     src/UrlAddress.cpp
     src/UnicodeNormalizer.cpp
     src/UnicodeNormTables.cpp
-    src/Uuid.cpp
 )
 
 include(FindPkgConfig)
