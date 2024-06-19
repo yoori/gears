@@ -10,6 +10,7 @@
 
 #include "AsciiStringManip.hpp"
 #include "OutputMemoryStream.hpp"
+#include "StringManip.hpp"
 
 namespace Gears
 {
@@ -589,6 +590,10 @@ namespace Gears
 
   typedef TimeMeter<Timer, false> ScopedTimer;
   typedef TimeMeter<Timer, true> ScopedAddTimer;
+
+  inline
+  std::string
+  cookie_date(const Time& tim, bool show_usec);
 }
 
 // Comparison functions (for Gears::Time class)
@@ -1334,6 +1339,31 @@ namespace Gears
     {
       Timer::stop_set(time_);
     }
+  }
+
+  inline
+  std::string
+  cookie_date(const Time& tim, bool show_usec)
+  {
+    const ExtendedTime& time = tim.get_gm_time();
+    char out[128];
+    snprintf(out, sizeof(out), "%s, %i-%s-%i %02i:%02i:%02i",
+      Time::week_day(time.tm_wday), time.tm_mday,
+      Time::month(time.tm_mon), time.tm_year + 1900,
+      time.tm_hour, time.tm_min, time.tm_sec);
+
+    if (show_usec && time.tm_usec)
+    {
+      size_t length = strlen(out);
+      snprintf(out + length, sizeof(out) - length, ".%06i GMT",
+        time.tm_usec);
+    }
+    else
+    {
+      StringManip::strlcat(out, " GMT", sizeof(out));
+    }
+
+    return out;
   }
 }
 
