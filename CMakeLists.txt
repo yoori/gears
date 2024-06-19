@@ -44,7 +44,7 @@ set(
 )
 
 include(FindPkgConfig)
-pkg_search_module(libevent REQUIRED event)
+pkg_search_module(LIBEVENT libevent)
 
 add_library(${TARGET_NAME} SHARED ${GEARS_SOURCE_FILES})
 
@@ -54,7 +54,7 @@ target_include_directories(${TARGET_NAME} PUBLIC
   )
 
 target_link_libraries(${TARGET_NAME}
-  event
+  ${LIBEVENT_LIBRARIES}
   ${CMAKE_THREAD_LIBS_INIT})
 
 install(TARGETS ${TARGET_NAME} DESTINATION lib)
