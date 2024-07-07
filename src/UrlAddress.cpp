@@ -1066,6 +1066,11 @@ namespace Gears
       url(value);
     }
 
+    URLAddress::URLAddress(const std::string_view& value)
+    {
+      url(SubString(value.data(), value.size()));
+    }
+
     URLAddress::URLAddress(const SubString& scheme,
       const SubString& userinfo, const SubString& host,
       const SubString& port, const SubString& path,
@@ -1582,6 +1587,14 @@ namespace Gears
       if (!url.empty())
       {
         assign_(url);
+      }
+    }
+
+    BrowserAddress::BrowserAddress(std::string_view url)
+    {
+      if (!url.empty())
+      {
+        assign_(SubString(url.data(), url.size()));
       }
     }
 

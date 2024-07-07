@@ -1,5 +1,6 @@
 #pragma once
 
+#include <string_view>
 #include "AsciiStringManip.hpp"
 
 namespace Gears
@@ -102,6 +103,9 @@ namespace Gears
        */
       explicit
       URLAddress(const SubString& url);
+
+      explicit
+      URLAddress(const std::string_view& url);
 
       /**
        * Constructor
@@ -381,6 +385,9 @@ namespace Gears
        */
       explicit
       BrowserAddress(const SubString& url = SubString());
+
+      explicit
+      BrowserAddress(std::string_view url);
 
       /**
        * Constructor
