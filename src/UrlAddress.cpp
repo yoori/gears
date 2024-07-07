@@ -1585,14 +1585,6 @@ namespace Gears
       }
     }
 
-    BrowserAddress::BrowserAddress(std::string_view url)
-    {
-      if (!url.empty())
-      {
-        assign_(SubString(url.data(), url.size()));
-      }
-    }
-
     BrowserAddress::BrowserAddress(const SubString& host,
       const SubString& path, const SubString& query,
       const SubString& fragment, unsigned short port, bool secure,

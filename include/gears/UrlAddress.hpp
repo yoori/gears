@@ -383,9 +383,6 @@ namespace Gears
       explicit
       BrowserAddress(const SubString& url = SubString());
 
-      explicit
-      BrowserAddress(std::string_view url);
-
       /**
        * Constructor
        * Uses splitted HTTP URL for initialization. Combines parts
