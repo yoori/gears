@@ -104,9 +104,6 @@ namespace Gears
       explicit
       URLAddress(const SubString& url);
 
-      explicit
-      URLAddress(const std::string_view& url);
-
       /**
        * Constructor
        * Uses previously splitted URL for initialization. Combines parts

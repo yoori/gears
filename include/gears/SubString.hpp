@@ -2,6 +2,7 @@
 #define GEARS_SUBSTRING_HPP_
 
 #include <string>
+#include <string_view>
 #include <ostream>
 //#define BASIC_STRING_INTERFACE_IMITATION
 #ifdef BASIC_STRING_INTERFACE_IMITATION
@@ -156,7 +157,11 @@ namespace Gears
     template <typename BasicStringTraits, typename Allocator>
     BasicSubString(
       const std::basic_string<BasicStringValueType, BasicStringTraits,
-        Allocator>& str) /*throw (Exception)*/;
+        Allocator>& str) noexcept;
+
+    template <typename BasicStringTraits>
+    BasicSubString(
+      const std::basic_string_view<BasicStringValueType, BasicStringTraits>& str) noexcept;
 
     /**
      * Constructor

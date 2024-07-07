@@ -163,7 +163,15 @@ namespace Gears
   template <typename BasicStringTraits, typename Allocator>
   BasicSubString<CharType, Traits, Checker>::BasicSubString(
     const std::basic_string<BasicStringValueType, BasicStringTraits,
-      Allocator>& str) /*throw (Exception)*/
+      Allocator>& str) noexcept
+    : begin_(str.data()), length_(str.size())
+  {
+  }
+
+  template <typename CharType, typename Traits, typename Checker>
+  template <typename BasicStringTraits>
+  BasicSubString<CharType, Traits, Checker>::BasicSubString(
+    const std::basic_string_view<BasicStringValueType, BasicStringTraits>& str) noexcept
     : begin_(str.data()), length_(str.size())
   {
   }
