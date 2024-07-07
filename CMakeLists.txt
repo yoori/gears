@@ -10,7 +10,8 @@ set(
     src/Time.cpp
     src/Condition.cpp
     src/ActiveObject.cpp
-    src/CompositeActiveObject.cpp 
+    src/CompositeActiveObject.cpp
+    src/IOContextActiveObject.cpp
     src/StringManip.cpp
     src/ThreadRunner.cpp
     src/TaskRunner.cpp
