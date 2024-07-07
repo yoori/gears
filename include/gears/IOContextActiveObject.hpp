@@ -3,9 +3,9 @@
 #include <boost/asio/io_context.hpp>
 #include <gears/ActiveObject.hpp>
 
-namespace diam2json
+namespace Gears
 {
-  class IOContextActiveObject: public Gears::SimpleActiveObject
+  class IOContextActiveObject: public SimpleActiveObject
   {
   public:
     IOContextActiveObject(int threadsNumber);

@@ -1,10 +1,10 @@
 #include <deque>
 #include <thread>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 
 #include <gears/IOContextActiveObject.hpp>
 
-namespace diam2json
+namespace Gears
 {
   struct IOContextActiveObject::Impl
   {
