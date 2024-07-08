@@ -49,6 +49,7 @@ set(
 
 include(FindPkgConfig)
 pkg_search_module(LIBEVENT libevent)
+find_package(Boost REQUIRED)
 
 add_library(${TARGET_NAME} SHARED ${GEARS_SOURCE_FILES})
 
@@ -59,6 +60,8 @@ target_include_directories(${TARGET_NAME} PUBLIC
 
 target_link_libraries(${TARGET_NAME}
   ${LIBEVENT_LIBRARIES}
-  ${CMAKE_THREAD_LIBS_INIT})
+  ${CMAKE_THREAD_LIBS_INIT}
+  Boost::boost
+)
 
 install(TARGETS ${TARGET_NAME} DESTINATION lib)
