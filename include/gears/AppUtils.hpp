@@ -385,7 +385,7 @@ namespace AppUtils
   {
     static const char* FUN = "AppUtils::OptionsSet<>::set()";
 
-    Gears::InputMemoryStream<char> istr{Gears::SubString(val)};
+    Gears::InputMemoryStream<char> istr{val};
     ValueType value;
     istr >> value;
     if (istr.bad() || !istr.eof())
