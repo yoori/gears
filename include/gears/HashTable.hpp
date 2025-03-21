@@ -52,11 +52,11 @@ namespace Gears
     class EqualKey = std::equal_to<Key> >
   class GnuHashSet :
     public std::unordered_set<Key, HashFunForHashAdapter<Key>,
-      EqualKey, typename Alloc::template rebind<Key>::other>
+      EqualKey, typename std::allocator_traits<Alloc>::template rebind_alloc<Key> >
   {
   public:
     typedef std::unordered_set<Key, HashFunForHashAdapter<Key>,
-      EqualKey, typename Alloc::template rebind<Key>::other>
+      EqualKey, typename std::allocator_traits<Alloc>::template rebind_alloc<Key> >
       Parent;
 
     typedef Key key_type;

@@ -64,4 +64,4 @@ target_link_libraries(${TARGET_NAME}
   Boost::boost
 )
 
-install(TARGETS ${TARGET_NAME} DESTINATION lib)
+install(TARGETS ${TARGET_NAME} DESTINATION ${CMAKE_LIBRARY_OUTPUT_DIRECTORY})
