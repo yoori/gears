@@ -45,6 +45,8 @@ set(
     src/UrlAddress.cpp
     src/UnicodeNormalizer.cpp
     src/UnicodeNormTables.cpp
+    src/UTF8Case.cpp
+    src/UTF8CaseUniform.cpp
 )
 
 include(FindPkgConfig)

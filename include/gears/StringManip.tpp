@@ -102,6 +102,7 @@ namespace Gears
           return false;
         }
         negative = true;
+        /* fall through */
       case '+':
         if (++src == END)
         {
